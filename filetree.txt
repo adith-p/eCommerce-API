@@ -1,0 +1,153 @@
+├── auth
+│   ├── admin.py
+│   ├── api
+│   │   ├── __pycache__
+│   │   │   └── urls.cpython-310.pyc
+│   │   ├── serializers.py
+│   │   ├── urls.py
+│   │   └── views.py
+│   ├── apps.py
+│   ├── __init__.py
+│   ├── migrations
+│   │   └── __init__.py
+│   ├── models.py
+│   ├── __pycache__
+│   │   ├── apps.cpython-310.pyc
+│   │   └── __init__.cpython-310.pyc
+│   ├── tests.py
+│   └── views.py
+├── base
+│   ├── asgi.py
+│   ├── __init__.py
+│   ├── __pycache__
+│   │   ├── __init__.cpython-310.pyc
+│   │   ├── settings.cpython-310.pyc
+│   │   ├── urls.cpython-310.pyc
+│   │   └── wsgi.cpython-310.pyc
+│   ├── settings.py
+│   ├── urls.py
+│   └── wsgi.py
+├── config
+│   ├── __init__.py
+│   ├── __pycache__
+│   │   ├── __init__.cpython-310.pyc
+│   │   └── urls.cpython-310.pyc
+│   └── urls.py
+├── manage.py
+├── media
+│   └── product
+├── orders
+│   ├── admin.py
+│   ├── api
+│   │   ├── __pycache__
+│   │   │   ├── serializers.cpython-310.pyc
+│   │   │   ├── urls.cpython-310.pyc
+│   │   │   └── views.cpython-310.pyc
+│   │   ├── serializers.py
+│   │   ├── urls.py
+│   │   └── views.py
+│   ├── apps.py
+│   ├── __init__.py
+│   ├── migrations
+│   │   ├── 0001_initial.py
+│   │   ├── 0002_orders_date_of_payment.py
+│   │   ├── 0003_alter_orders_status.py
+│   │   ├── __init__.py
+│   │   └── __pycache__
+│   │       ├── 0001_initial.cpython-310.pyc
+│   │       ├── 0002_orders_date_of_payment.cpython-310.pyc
+│   │       ├── 0003_alter_orders_status.cpython-310.pyc
+│   │       └── __init__.cpython-310.pyc
+│   ├── models.py
+│   ├── __pycache__
+│   │   ├── admin.cpython-310.pyc
+│   │   ├── apps.cpython-310.pyc
+│   │   ├── __init__.cpython-310.pyc
+│   │   └── models.cpython-310.pyc
+│   └── tests.py
+├── product
+│   ├── admin.py
+│   ├── api
+│   │   ├── __pycache__
+│   │   │   ├── serializer.cpython-310.pyc
+│   │   │   ├── urls.cpython-310.pyc
+│   │   │   └── views.cpython-310.pyc
+│   │   ├── serializer.py
+│   │   ├── urls.py
+│   │   └── views.py
+│   ├── apps.py
+│   ├── __init__.py
+│   ├── migrations
+│   │   ├── 0001_initial.py
+│   │   ├── 0002_product_model_pr_stock.py
+│   │   ├── __init__.py
+│   │   └── __pycache__
+│   │       ├── 0001_initial.cpython-310.pyc
+│   │       ├── 0002_product_model_pr_stock.cpython-310.pyc
+│   │       ├── 0002_rename_pr_id_product_image_prid.cpython-310.pyc
+│   │       └── __init__.cpython-310.pyc
+│   ├── models.py
+│   ├── __pycache__
+│   │   ├── admin.cpython-310.pyc
+│   │   ├── apps.cpython-310.pyc
+│   │   ├── __init__.cpython-310.pyc
+│   │   └── models.cpython-310.pyc
+│   └── tests.py
+├── razorpay_backend
+│   ├── admin.py
+│   ├── api
+│   │   ├── __pycache__
+│   │   │   ├── serializer.cpython-310.pyc
+│   │   │   ├── urls.cpython-310.pyc
+│   │   │   └── views.cpython-310.pyc
+│   │   ├── serializer.py
+│   │   ├── urls.py
+│   │   └── views.py
+│   ├── apps.py
+│   ├── __init__.py
+│   ├── migrations
+│   │   ├── __init__.py
+│   │   └── __pycache__
+│   │       └── __init__.cpython-310.pyc
+│   ├── models.py
+│   ├── __pycache__
+│   │   ├── admin.cpython-310.pyc
+│   │   ├── apps.cpython-310.pyc
+│   │   ├── __init__.cpython-310.pyc
+│   │   └── models.cpython-310.pyc
+│   └── tests.py
+└── users
+    ├── admin.py
+    ├── api
+    │   ├── __pycache__
+    │   │   ├── __init__.cpython-310.pyc
+    │   │   ├── serializer.cpython-310.pyc
+    │   │   ├── serializers.cpython-310.pyc
+    │   │   ├── urls.cpython-310.pyc
+    │   │   └── views.cpython-310.pyc
+    │   ├── serializer.py
+    │   ├── urls.py
+    │   └── views.py
+    ├── apps.py
+    ├── __init__.py
+    ├── migrations
+    │   ├── 0001_initial.py
+    │   ├── 0002_alter_address_user_id.py
+    │   ├── 0003_alter_shoppingcart_shopping_item.py
+    │   ├── 0004_alter_wishlist_whishlist_item.py
+    │   ├── 0005_delete_orders.py
+    │   ├── __init__.py
+    │   └── __pycache__
+    │       ├── 0001_initial.cpython-310.pyc
+    │       ├── 0002_alter_address_user_id.cpython-310.pyc
+    │       ├── 0003_alter_shoppingcart_shopping_item.cpython-310.pyc
+    │       ├── 0004_alter_wishlist_whishlist_item.cpython-310.pyc
+    │       ├── 0005_delete_orders.cpython-310.pyc
+    │       └── __init__.cpython-310.pyc
+    ├── models.py
+    ├── __pycache__
+    │   ├── admin.cpython-310.pyc
+    │   ├── apps.cpython-310.pyc
+    │   ├── __init__.cpython-310.pyc
+    │   └── models.cpython-310.pyc
+    └── tests.py
