@@ -1,0 +1,12 @@
+django
+djangorestframework
+Pillow
+djangorestframework-simplejwt
+razorpay
+django-environ 
+pyyaml
+uritemplate
+coreapi
+pygments
+markdown
+drf_yasg
